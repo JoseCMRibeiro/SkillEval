@@ -1,0 +1,46 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+
+    & .col {
+        width: 30rem;
+        margin: 1rem;
+    }
+
+    & .larger-input {
+        min-width: 16rem;
+        max-width: 20rem;
+    }
+
+    & .smaller-input {
+        min-width: 6rem;
+        max-width: 12.7rem;
+    }
+}
+
+#insert_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.table-container {
+    & input {
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+
+        border: 1px solid var(--davys-gray);
+        border-radius: .3rem;
+        padding: .3rem .3rem;
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    & input:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,60 @@
+.student-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+}
+
+.classroom-chart {
+    width: 100% !important;
+    min-width: 40rem !important;
+    height: 35rem !important;
+}
+
+.excel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.excel-container a {
+    color: #f2931f;
+    font-weight: 500;
+}
+
+.excel-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7f8;
+    border-radius: 5px;
+}
+
+.excel-form input {
+    padding: 0 0.5rem;
+}
+
+.excel-form label {
+    color: black;
+    font-weight: 500;
+    margin: .5rem 0;
+}
+
+.excel-form button {
+    width: 20%;
+    height: 2rem;
+    font-size: 0.9rem;
+}
+
+.form-group-excel-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem 0;
+
+    > * {
+        margin: 0.2rem 0;
+    }
+}

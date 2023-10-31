@@ -1,0 +1,13 @@
+.input_container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.report-form-container {
+    padding: 0 3rem;
+
+    & button {
+        margin: 1.5rem auto;
+        display: block;
+    }
+}
